@@ -1,0 +1,148 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#container {
+    width: 800px;
+    height: 500px;
+}
+#header {
+    height: 50px;
+    width: 620px;
+    background-color: black;
+    color: white;
+    padding-left: 50px;
+    margin-left: 50px;
+}
+#yourfeed {
+    text-align: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 700px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+.avatarbox {
+    width: 185px;
+    height: 200px;
+    border: solid 3px;
+    padding-top: 20px;
+    margin-left: 50px;
+    vertical-align: top;
+    display: inline-block;
+}
+.avatarbox > img {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    border-radius: 50%;
+    margin-left: 65px;
+}
+.avatarbox > a {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+.avatarbox > h3 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+#blankspace {
+    width: 185px;
+    height: 600px;
+    background-color: aqua;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+button {
+    background-color: green;
+}
+.neilm {
+    border: 3px solid black;
+    width: 450px;
+    height: 140px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.neilm > h2 {
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.neilm > h3 {
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.likes {
+    display: flex;
+    justify-content: right;
+    justify-content: space-between;
+    text-align: center;
+    margin-right: 20px;
+    margin-left: 320px;
+}
+
+
+
+
+
+
+
+
+
+.nicholek {
+    border: 3px solid black;
+    width: 450px;
+    height: 140px;
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-left: 265px;
+}
+.nicholek > h2 {
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.nicholek > h3 {
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+.jimr {
+    border: 3px solid black;
+    width: 450px;
+    height: 140px;
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-left: 265px;
+}
+.jimr > h2 {
+    padding-top: 10px;
+    margin-left: 10px;
+}
+.jimr > h3 {
+    padding-top: 10px;
+    margin-left: 10px;
+}

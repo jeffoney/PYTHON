@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>The Checkerboard</title>
+        <style>
+            *{
+                border: 0px;
+                margin: 0px;
+            }
+            div{
+                height: 100px;
+                width: 100px;
+                background: green;
+                display: inline-block;
+                margin-left: 10px;
+                margin-bottom: 10px;
+            }
+            table, td{
+                border: 1px solid black;
+            }
+            table{
+                border-collapse: collapse;
+            }
+            td{
+                height: 20px;
+                width: 20px;
+            }
+            .color1{
+                background: red;
+            }
+            .color2{
+                background: black;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>The Checkerboard</h2>
+        <table>
+        {% for i in range(down): %}
+            <tr>
+                {% for j in range(across): %}
+                <td class="color{{ (i+j)%2+1  }}"></td>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+        </table>
+    </body>
+</html>

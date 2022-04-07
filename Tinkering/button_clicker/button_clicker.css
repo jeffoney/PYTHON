@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1000px;
+
+}
+.dojonary_search {
+    width: 1000px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.dojonary_search > button {
+    background-color: blue;
+    color: white;
+}
+
+
+
+
+
+
+
+.ninja-def {
+    border: 1px solid black;
+    width: 50%;
+    height: 200px;
+    background-color: gray;
+    margin: 30px;
+    display: inline-block;
+}
+.ninja-def > p {
+    float: right;
+    margin-right: 50px;
+    align-items: center;
+}
+.def-body {
+    margin: 5px;                    
+}
+
+
+
+
+
+
+
+
+
+.add-def {
+    width: 30%;
+    display: inline-block;
+    height: 150px;
+    border: 1px solid black;
+    background-color: lightblue;
+    align-items: center;
+    margin: 30px;
+    vertical-align: top;
+    text-align: center;
+}
+
+
+
+
+
+.ninja-def-bottom {
+    border: 1px solid black;
+    width: 50%;
+    height: 200px;
+    background-color: gray;
+    margin: 30px;
+    display: inline-block;
+}
+.ninja-def-bottom > p {
+    float: right;
+    margin-right: 50px;
+    align-items: center;
+}

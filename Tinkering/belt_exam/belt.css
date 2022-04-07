@@ -1,0 +1,168 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#container {
+    width: 920px;
+    height: 900px;
+}
+#header {
+    text-align: center;
+}
+.topnav {
+    width: 660px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.topnav > h3 {
+    padding-top: 7px;
+}
+.topnav > img {
+    border-radius: 50%;
+}
+.topnav > input {
+    width: 455px;
+    height: 20px;
+    border-radius: 25;
+    margin-top: 8px;
+}
+.topnav > a {
+    margin-top: 8px;
+}
+.subnav {
+    width: 660px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 30px;
+    border-bottom: solid 3px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.body > h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-right: 175px;
+}
+.discover {
+    margin-left: 30px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(4, 160, 51);
+    color: white;
+    display: inline-block;
+}
+.discover > h3 {
+    vertical-align: top;
+    margin-top: 75px;
+    text-align: center;
+}
+.succulents {
+    display: inline-block;
+}
+#home > img {
+    margin-top: 30px;
+}
+.body {
+    justify-content: center;
+}
+.image_off, #home:hover .image_on{
+    display:none
+}
+.image_on, #home:hover .image_off{
+    display:block
+}
+.aloe {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+    padding-top: 30px;
+}
+.aloe > h4 {
+    width: 235px;
+    height: 35px;
+    background-color: rgb(4, 160, 51);
+    color: white;
+    margin-top: 10px;
+    padding-left: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.plants {
+    width: 660px;
+    height: 75px;
+    background-color: lightblue;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.plants > img {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+.plantstext {
+    width: 660px;
+    height: 25px;
+    padding: 10px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: lightblue;
+    margin-right: 5px;
+}
+
+
+
+
+
+.cookies {
+    width: 660px;
+    margin-left: 30px;
+    border: solid black 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 75px;
+}
+.cookies > button {
+    margin-left: 35px;
+    background-color: rgb(4, 160, 51);
+    color: white;
+}
+.scroll {
+    min-height: 1500px;
+}

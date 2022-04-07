@@ -1,0 +1,257 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+button {
+    font-family: Arial, Helvetica, sans-serif;
+}
+div {
+    font-family:Arial, Helvetica, sans-serif;
+}
+.container {
+    width: 1000px;
+    height: 600px;
+    display: inline-block;
+}
+.nav {
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.nav-title {
+    padding-left: 150px;
+    padding-right: 100px;
+}
+.nav-links {
+    display: flex;
+    text-align: start;
+    color: white;
+    text-decoration: none;
+    padding-right: 100px;
+}
+a {
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+    list-style: none;
+}
+button {
+    display: flex;
+    text-align: end;
+    color: white;
+    background-color: blue;
+    margin-left: 185px;
+}
+li {
+    list-style: none;
+}
+
+
+
+.blue-bar {
+    width: 400px;
+    height: 100px;
+    background-color: rgb(4, 132, 175);
+    margin-right: 30px;
+}
+.user_profile {
+    width: 40%;
+    height: 270px;
+    margin-left: 140px;
+    margin-top: 50px;
+    border:1px solid black;
+    display: inline-block;
+}
+a {
+    text-decoration: underline;
+    color: blue;
+}
+.profile_header {
+    padding-top: 45px;
+    padding-left: 20px;
+}
+.profile_header > img {
+    border-radius: 50%;
+}
+.profile_body {
+    padding-left: 20px;
+    text-align: start;
+    padding-top: 30px;
+}
+
+
+
+
+
+
+
+.connection_requests {
+    display: inline-block;
+    vertical-align: top;
+    width: 32%;
+    height: 160px;
+    margin-top: 50px;
+    border:1px solid black;
+    display: inline-block;
+    margin-left: 20px;
+}
+.two_requests {
+    justify-content: center;
+    justify-content: space-evenly;
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}
+.two_requests > h1 {
+    background-color: lightgrey;
+    border-radius: 50%;
+    border-color: black;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.two_requests > h4 {
+    text-align: center;
+}
+.graybar_topright {
+    background-color: gray;
+    width: 320px;
+    height: 55px;
+}
+.requests_box {
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.requests_box > img {
+    vertical-align: top;
+}
+.ToddE {
+    display: flex;
+    justify-content: left;
+    margin: 15px;
+    justify-content: center;
+    justify-content: space-between;
+}
+.PhilK {
+    display: flex;
+    justify-content: left;
+    margin: 10px;
+    justify-content: center;
+    justify-content: space-between;
+}
+.ToddE >img {
+    border-radius: 50%;
+}
+.PhilK > img {
+    border-radius: 50%;
+}
+
+
+
+
+
+
+.education {
+    width: 40%;
+    height: 220px;
+    margin-left: 140px;
+    margin-top: 20px;
+    border:1px solid black;
+    display: inline-block;
+}
+.graybar_botleft {
+    background-color: gray;
+    width: 400px;
+    height: 55px;
+}
+.education_header {
+    padding-top: 10px;
+    margin-left: 15px;
+}
+.education_body {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+.your_connections {
+    display: inline-block;
+    vertical-align: top;
+    width: 32%;
+    height: 240px;
+    margin-top: -90px;
+    border:1px solid black;
+    margin-left: 20px;
+    margin-bottom: 500px;
+}
+.graybar_botright {
+    background-color: gray;
+    width: 320px;
+    height: 55px;
+}
+.fivehunnid_requests > h1 {
+    background-color: lightgrey;
+    border-radius: 50%;
+    border-color: black;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fivehunnid_requests {
+    justify-content: center;
+    justify-content: space-evenly;
+    display: flex;
+    align-items: center;
+}
+.connections_box {
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.fivehunnid_requests > h4 {
+    text-align: center;
+}
+.AdrienD {
+    display: flex;
+    justify-content: left;
+    margin: 10px;
+    justify-content: center;
+    justify-content: space-between;
+    margin-right: 150px;
+}
+.AnneJ {
+    display: flex;
+    justify-content: left;
+    margin: 10px;
+    justify-content: center;
+    justify-content: space-between;
+    margin-right: 150px;
+}
+.AlayneT {
+    display: flex;
+    justify-content: left;
+    margin: 10px;
+    justify-content: center;
+    justify-content: space-between;
+    margin-right: 150px;
+}
+.ArryY {
+    display: flex;
+    justify-content: left;
+    margin: 10px;
+    justify-content: center;
+    justify-content: space-between;
+    margin-right: 150px;
+}
