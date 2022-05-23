@@ -25,7 +25,7 @@ print("Nice to meet you. :)")
 time.sleep(0.8)
 response = input("Would you say it's nice to meet me? → ")
 
-# other dialoge
+# other dialogue
 if response.lower().startswith("y"):
     print("Nice :)")
     sys.exit()
