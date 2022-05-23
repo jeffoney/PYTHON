@@ -31,8 +31,8 @@ print(
     "So You Are Still Here Not Gone I Gave You Chance But No Problem May Be You Trust Your Fortune A Lot \n Lets Begin Then"
 )
 sleep(2)
-d_cards = []  # Initialising dealer's cards
-p_cards = []  # Initialising player's cards
+d_cards = []  # Initializing dealer's cards
+p_cards = []  # Initializing player's cards
 sleep(2)
 while len(d_cards) != 2:
     random.shuffle(deck)

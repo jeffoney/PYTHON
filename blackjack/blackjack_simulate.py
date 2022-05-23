@@ -21,7 +21,7 @@ Target: BlackJack 21 simulate
                 - Dealer return 50% chips
 """
 
-__author__ = "Alopex Cheung"
+__author__ = "Jeff Oney"
 __version__ = "0.2"
 
 BLACK_JACK = 21

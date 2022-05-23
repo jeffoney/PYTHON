@@ -1,7 +1,7 @@
 import random
 
 
-class Colour:
+class Color:
     BLACK = "\033[30m"
     RED = "\033[91m"
     GREEN = "\033[32m"
@@ -9,10 +9,10 @@ class Colour:
 
 
 suits = (
-    Colour.RED + "Hearts" + Colour.END,
-    Colour.RED + "Diamonds" + Colour.END,
-    Colour.BLACK + "Spades" + Colour.END,
-    Colour.BLACK + "Clubs" + Colour.END,
+    Color.RED + "Hearts" + Color.END,
+    Color.RED + "Diamonds" + Color.END,
+    Color.BLACK + "Spades" + Color.END,
+    Color.BLACK + "Clubs" + Color.END,
 )
 ranks = (
     "Two",
@@ -195,7 +195,7 @@ while True:
         "\t                       Welcome to the game Casino - BLACK JACK !                                                     "
     )
     print("\t              **********************************************************")
-    print(Colour.BLACK + "\t                                   ***************")
+    print(Color.BLACK + "\t                                   ***************")
     print("\t                                   * A           *")
     print("\t                                   *             *")
     print("\t                                   *      *      *")
@@ -205,7 +205,7 @@ while True:
     print("\t                                   *      *      *")
     print("\t                                   *             *")
     print("\t                                   *             *")
-    print("\t                                   ***************" + Colour.END)
+    print("\t                                   ***************" + Color.END)
 
     print(
         "\nRULES: Get as close to 21 as you can but if you get more than 21 you will lose!\n  Aces count as 1 or 11."
@@ -264,11 +264,11 @@ while True:
         else:
             print(
                 "Thanks for playing!\n"
-                + Colour.GREEN
+                + Color.GREEN
                 + "\t$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n \t      Congratulations! You won "
                 + str(player_chips.total)
                 + " coins!\n\t$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n "
-                + Colour.END
+                + Color.END
             )
             break
     else:
