@@ -14,21 +14,20 @@ deck = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10, 11] * 4
 
 random.shuffle(deck)
 
-print(f'{"*"*58} \n Welcome to the game Casino - BLACK JACK ! \n{"*"*58}')
+print(f'{"*"*58} \n Welcome to Jeffs BlackJack \n{"*"*58}')
 sleep(2)
-print("So Finally You Are Here To Accept Your Fate")
+print("So you think you have what it takes to beat my AI?")
 sleep(2)
-print("I Mean Your Fortune")
+print("I suppose you can give it a try..")
 sleep(2)
-print("Lets Check How Lucky You Are  Wish You All The Best")
+print("Don't beat yourself up if you lose")
 sleep(2)
 print("Loading---")
 sleep(2)
-
-print("Still Loading---")
+print("It's just a game..")
 sleep(2)
 print(
-    "So You Are Still Here Not Gone I Gave You Chance But No Problem May Be You Trust Your Fortune A Lot \n Lets Begin Then"
+    "Lets give this a try \n Dealing cards now.."
 )
 sleep(2)
 d_cards = []  # Initializing dealer's cards
@@ -38,7 +37,7 @@ while len(d_cards) != 2:
     random.shuffle(deck)
     d_cards.append(deck.pop())
     if len(d_cards) == 2:
-        print("The cards dealer has are X ", d_cards[1])
+        print("The dealer has one card down and ", d_cards[1])
 
 # Displaying the Player's cards
 while len(p_cards) != 2:
